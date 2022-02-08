@@ -19,7 +19,7 @@ nav div{
     border-bottom:solid 2px rgb(241, 233, 233);
     width: 85%;
     margin-left: 7%;
-   padding-bottom: 30px;
+   padding-bottom: 8px;
    height: 100%;
    position: relative;
 }
@@ -217,7 +217,7 @@ main{
    color: rgb(203, 98, 16);
   
 }
-.content h6{
+.content h5{
     margin-top: 25px;
     font-size: 1.25rem;
     color: lightgray;
@@ -366,7 +366,7 @@ main{
 }
 
 
-@media (max-width:991px){
+@media (max-width:600px){
 
     html,body{
         width: 100%;
@@ -387,16 +387,21 @@ main{
         width: 100%;
         display: flex;
         position: relative;
-     height: 100%;
+   height: 100%;
        
         
        
+    }
+
+    .logo{
+        height: 50%;
     }
   nav div a{
       display: none;
   }
   .menu{
       display: inline-block;
+      height: 50%;
   }
    .cart{
    position: absolute;
@@ -449,7 +454,7 @@ main{
     margin-left: 5%;
     
 }
-.content h4 ,.content span ,.content h6{
+.content h4 ,.content span ,.content h5{
     display: inline;
     margin-right: 70px;
 }
