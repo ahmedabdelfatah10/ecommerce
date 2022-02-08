@@ -39,7 +39,7 @@ nav  button{
    
 }
 .logo{
-    margin-left: 7%;
+    margin-left: .5%;
     margin-right: 3%;
     margin-top: 0px;
 }
@@ -395,13 +395,14 @@ main{
 
     .logo{
         height: 50%;
+        margin-left: 5%;
     }
   nav div a{
       display: none;
   }
   .menu{
       display: inline-block;
-      height: 50%;
+      height: 60%;
   }
    .cart{
    position: absolute;
