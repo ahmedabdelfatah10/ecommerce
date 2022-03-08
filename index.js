@@ -25,7 +25,8 @@ let bigpic=document.querySelector('.big')
 btns=Array.from(btns);
 
 document.addEventListener('DOMContentLoaded',()=>{
-  if(localStorage.getItem("countitem")!=="0"){
+  if(localStorage.getItem("countitem") !== "0"){
+
     avatar.classList.add('borderorange');
     cart.classList.add('borderorange');
           style.innerText=`.cart+span::after{
@@ -45,6 +46,10 @@ document.addEventListener('DOMContentLoaded',()=>{
     
        }`
        document.body.appendChild(style)
+  }else{
+    avatar.classList.remove('borderorange')
+    cart.classList.remove('borderorange');
+    document.body.removeChild(style)
   }
 })
 btns.forEach((btn)=>{
