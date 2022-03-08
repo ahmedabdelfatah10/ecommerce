@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   }else{
     avatar.classList.remove('borderorange')
     cart.classList.remove('borderorange');
-    document.body.removeChild(style)
+    style.remove();
   }
 })
 btns.forEach((btn)=>{
