@@ -80,7 +80,11 @@ minus.addEventListener('click',()=>{
     
     pic.addEventListener('click',clickonlargescreens)
 })
+if(window.innerWidth>'600'){
+  console.log('hello')
 bigpic.addEventListener('click',bigpicclick)
+}
+
 window.addEventListener('resize',events)
 function clickonlargescreens(){
 
